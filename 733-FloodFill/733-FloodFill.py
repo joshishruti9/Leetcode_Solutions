@@ -2,17 +2,10 @@ from collections import deque
 class Solution:
     def add_neighbours(self, image, i, j, queue, m, n, orginal_color):
         
-        if 0 <= i+1 < m and image[i+1][j] == orginal_color:
-            queue.append((i+1,j))
-        
-        if 0 <= j+1 < n and image[i][j+1] == orginal_color:
-            queue.append((i,j+1))
-           
-        if 0 <= i-1 < m and image[i-1][j] == orginal_color:
-            queue.append((i-1,j))
-        
-        if 0 <= j-1 < n and image[i][j-1] == orginal_color:
-            queue.append((i,j-1))
+        indexes = [(-1,0),(1,0),(0,-1),(0,1)]
+        for di, dj in indexes:
+            if 0 <= i + di < m and 0 <= j + dj < n and image[i+di][j+dj] == orginal_color:
+                queue.append((di+i,dj+j))
 
     def traverse(self,image,sr,sc,color):
         m = len(image)
@@ -31,7 +24,7 @@ class Solution:
 
         if color == image[sr][sc]:
             return image
-            
+
         self.traverse(image, sr, sc, color)
 
         return image
