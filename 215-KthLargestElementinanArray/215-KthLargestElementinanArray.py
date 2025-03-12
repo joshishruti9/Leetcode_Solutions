@@ -15,5 +15,4 @@ class Solution:
                 else:
                     heappush(min_heap,number)
 
-        n = len(min_heap)
         return min_heap[0]       
