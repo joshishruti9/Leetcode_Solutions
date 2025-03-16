@@ -16,12 +16,15 @@ class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
 
         count  = 0
-
+        if n == 0:
+            return True
         for i in range(len(flowerbed)):
             if flowerbed[i] == 0 and self.noFlowerLeft(flowerbed,i) and self.noFlowerRight(flowerbed,i):
                 count += 1
                 flowerbed[i] = 1
+            if count == n:
+                return True
 
-        return count >= n
+        return False
             
         
