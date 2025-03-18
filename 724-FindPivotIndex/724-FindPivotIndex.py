@@ -5,7 +5,6 @@ class Solution:
 
         i = 0
         while i < len(nums):
-            print(lsum, " ",rsum)
             if lsum == rsum - nums[i]:
                 return i
             lsum += nums[i]
