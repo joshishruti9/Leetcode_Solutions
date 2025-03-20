@@ -2,7 +2,6 @@ class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         i = 0
         j = 0
-        first_index = -1
 
         if len(needle) > len(haystack):
             return -1
