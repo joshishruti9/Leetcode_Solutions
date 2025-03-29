@@ -1,4 +1,4 @@
-# Last updated: 3/29/2025, 4:28:18 PM
+# Last updated: 3/29/2025, 4:28:27 PM
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
         stack = []
