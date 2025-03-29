@@ -1,17 +1,13 @@
-# Last updated: 3/29/2025, 4:28:27 PM
+# Last updated: 3/29/2025, 4:38:34 PM
 class Solution:
-    def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
-        stack = []
-        next_great_map = dict()
+    def finalPrices(self, prices: List[int]) -> List[int]:
+        max_stack = []
+        discount_map = dict()
+        result = prices
 
-        for num in nums2:
-            while stack and stack[-1] < num:
-                last_item = stack.pop()
-                next_great_map[last_item] = num
-            stack.append(num)
-
-        result = []
-        for num in nums1:
-            result.append(next_great_map.get(num,-1))
-        
+        for i in range(len(prices)):
+            while max_stack and prices[max_stack[-1]] >= prices[i]:
+                item = max_stack.pop()
+                result[item] = (prices[item] - prices[i])
+            max_stack.append(i)
         return result
