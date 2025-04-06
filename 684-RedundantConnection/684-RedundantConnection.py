@@ -1,4 +1,4 @@
-# Last updated: 4/6/2025, 2:38:50 PM
+# Last updated: 4/6/2025, 2:40:24 PM
 class Solution:
 
     def find(self, x, root):
@@ -33,6 +33,4 @@ class Solution:
 
         for x,y in edges:
             if not self.union(x, y, rank, root):
-                output = [x,y]
-
-        return output
+                return [x,y]
