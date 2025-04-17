@@ -1,11 +1,13 @@
+# Last updated: 4/17/2025, 3:56:37 PM
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         res = []
         ltor = []
-        rtol = []
+        rtol = [0 for i in range(len(nums))]
         n = len(nums)
 
         product = 1
+    
         for i in range(n):
             product *= nums[i] 
             ltor.append(product)
