@@ -1,4 +1,4 @@
-# Last updated: 4/19/2025, 2:20:31 PM
+# Last updated: 4/19/2025, 2:20:56 PM
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -23,8 +23,6 @@ class Solution:
                 if node is None:
                     continue
 
-                print(node.val)
-
                 if node.left:
                     queue2.append(node.left)
                 else:
@@ -36,7 +34,6 @@ class Solution:
                     right_flag = True
                 
                 if right_flag and left_flag:
-                    print(curr_length," ",node.val)
                     return curr_length
 
             queue = queue2 
