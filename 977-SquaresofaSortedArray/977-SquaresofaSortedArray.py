@@ -1,39 +1,19 @@
-# Last updated: 4/27/2025, 2:22:41 PM
+# Last updated: 4/27/2025, 2:25:10 PM
 class Solution:
     def longestMountain(self, arr: List[int]) -> int:
         n = len(arr)
+        if n < 3:
+            return 0
         max_len = 0
-        i = 0
-        start = end = peak = 0
-
-        while i < n-1:
-            while i < n-1 and arr[i] >= arr[i+1]:
-                i += 1
-            
-            if i == n:
-                return max_len
-
-            start = i
-
-            while i < n-1 and arr[i] < arr[i+1] :
-                i += 1
-            
-            if i == n:
-                return max_len
-
-            peak = i
-            
-
-            while i < n-1 and arr[i] > arr[i+1]:
-                i += 1
-            
-            if i == n:
-                return max_len
-            end = i
-
-            if peak != end:
-                max_len = max(max_len, (end-start+1))
-        
-        return 0 if (max_len==0 and(end == start or start == peak or end == peak)) else max_len
-       
+        for i in range(1, n - 1): 
+            if arr[i - 1] < arr[i] > arr[i + 1]: 
+                left = i - 1
+                right = i + 1
+                while left > 0 and arr[left - 1] < arr[left]:
+                    left -= 1
+                while right < n - 1 and arr[right] > arr[right + 1]:
+                    right += 1            
+                max_len = max(max_len, right - left + 1)
+    
+        return max_len
         
