@@ -1,24 +1,40 @@
-# Last updated: 4/29/2025, 4:20:20 PM
+# Last updated: 4/29/2025, 4:59:16 PM
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
 class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
-        count = 1
+    def traverse(self, node):
 
-        i = 1
-        j = 1
+        if node.left is None and node.right is None:
+            self.res.append(node.val)
+            return
 
+        if node.left:
+            self.traverse(node.left)
 
-        while i < len(nums):
-            if nums[i-1] == nums[i]:
-                count += 1
-            else:
-                count = 1
+        self.res.append(node.val)
 
-            if count <= 2:
-                nums[j] = nums[i]
-                j += 1
-            
-            i += 1
+        if node.right:
+            self.traverse(node.right)
+        
 
-        return j
+        
+    def getMinimumDifference(self, root: Optional[TreeNode]) -> int:
+        if root is None:
+            return 0
+       
+        self.res = []
+        self.diff = float('inf')
 
+        self.traverse(root)
+
+        n = len(self.res)
+
+        for i in range(1,n):
+            self.diff = min(self.diff, abs(self.res[i]-self.res[i-1]))
+
+        return self.diff
         
