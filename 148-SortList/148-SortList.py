@@ -1,4 +1,4 @@
-# Last updated: 5/4/2025, 2:23:18 PM
+# Last updated: 5/4/2025, 2:25:20 PM
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
@@ -6,6 +6,11 @@
 #         self.next = next
 class Solution:
     def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+
+        def sort_func(t):
+            # t = (node, node_val)
+            return t[1]
+
         nodes = dict()
 
         if head is None:
@@ -17,7 +22,7 @@ class Solution:
             nodes[node] = node.val
             node = node.next
         
-        sorted_map = sorted(nodes.items(), key = lambda item: item[1])
+        sorted_map = sorted(nodes.items(), key = sort_func)
 
         psuedo_head = ListNode()
         prev_node = psuedo_head
