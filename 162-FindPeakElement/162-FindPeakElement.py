@@ -1,8 +1,6 @@
-# Last updated: 5/4/2025, 1:48:22 PM
+# Last updated: 5/4/2025, 1:50:32 PM
 class Solution:
     def bisect_left(self, nums, low, high):
-
-        print(low," ",high)
 
         if low == high:
             self.peak = high
@@ -10,28 +8,14 @@ class Solution:
       
         mid = (low + high) // 2
         
-        if mid == 0 and nums[mid+1] < nums[mid]:
-            print("con2")
-            self.peak = mid
-            return
-        
-        elif (mid+1 > len(nums)) and nums[mid-1] < nums[mid]:
-            print("con3")
-            self.peak = mid
-            return
-
-        elif nums[mid] > nums[mid-1] and nums[mid] > nums[mid+1]:
-            print("con4")
+        if (mid == 0 and nums[mid+1] < nums[mid]) or ((mid+1 > len(nums)) and nums[mid-1] < nums[mid]) or (nums[mid] > nums[mid-1] and nums[mid] > nums[mid+1]) :
             self.peak = mid
             return
     
-       
         if mid-1 >= 0 and nums[mid-1] > nums[mid]:
-            print("con5")
             self.bisect_left(nums,low,mid)
 
         elif nums[mid+1] > nums[mid]:
-            print("con6")
             self.bisect_left(nums, mid+1, high)
         
         return
