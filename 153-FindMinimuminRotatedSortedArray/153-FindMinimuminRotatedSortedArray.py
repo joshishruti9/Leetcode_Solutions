@@ -1,4 +1,4 @@
-# Last updated: 5/5/2025, 4:06:50 PM
+# Last updated: 5/5/2025, 4:07:24 PM
 class Solution:
     def bisect_left(self, nums, low, high):
 
@@ -14,8 +14,5 @@ class Solution:
     def findMin(self, nums: List[int]) -> int:
         n = len(nums)
         index = self.bisect_left(nums, 0, n-1)
-
-        if index == 0 and nums[index] > nums[n-1]:
-            return nums[n-1]
      
         return nums[index]
