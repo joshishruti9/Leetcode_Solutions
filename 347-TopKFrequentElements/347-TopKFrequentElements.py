@@ -1,4 +1,4 @@
-# Last updated: 5/7/2025, 1:16:36 PM
+# Last updated: 5/7/2025, 1:16:57 PM
 from heapq import heappush, heappop
 from collections import Counter
 
@@ -11,15 +11,11 @@ class Solution:
         for key, value in counter.items():
             if len(min_heap) < k:
                 heappush(min_heap,(value,key))
-                print(min_heap)
             else:
                 v, keys = heappop(min_heap)
-                print(v," ",keys)
-                print(value," ",key)
                 if value > v:
                     heappush(min_heap,(value,key))
                 else:
                     heappush(min_heap,(v,keys))
-                print(min_heap) 
 
         return [item[1] for item in min_heap]   
