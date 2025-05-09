@@ -1,4 +1,4 @@
-# Last updated: 5/8/2025, 11:52:08 PM
+# Last updated: 5/8/2025, 11:52:45 PM
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -18,11 +18,8 @@ class Solution:
         if node.right:
             r_height = self.traverse(node.right)
         
-        if abs(l_height - r_height) <= 1:
-            self.flag = self.flag and True
-        
-        else:
-            self.flag = self.flag and False
+        if abs(l_height - r_height) > 1:
+            self.flag = False
         
         return max(l_height, r_height) + 1
         
