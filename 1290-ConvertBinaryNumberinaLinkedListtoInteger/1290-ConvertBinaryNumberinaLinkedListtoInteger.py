@@ -1,4 +1,4 @@
-# Last updated: 5/15/2025, 10:02:46 PM
+# Last updated: 5/15/2025, 10:03:35 PM
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -25,10 +25,8 @@ class Solution:
         count = 0
 
         while node:
-            num = (num * 10) + node.val
+            num = (num * 2) + node.val
             node = node.next
             count += 1
         
-        print(num)
-        bin_num = self.convert_binary(num)
-        return bin_num
+        return num
