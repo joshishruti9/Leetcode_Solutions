@@ -1,4 +1,4 @@
-# Last updated: 4/19/2025, 3:12:50 PM
+# Last updated: 5/15/2025, 8:48:14 PM
 """
 # Definition for a Node.
 class Node:
@@ -10,29 +10,35 @@ class Node:
 """
 
 class Solution:
-    def connect(self, root: 'Node') -> 'Node':
-        if root is None:
-            return None
-
+    def traverse(self, root):
         queue = [root]
+        prev_node = ListNode()
 
         while queue:
             queue2 = []
-            prev_node = queue[0]
-            for node in queue: 
+            for node in queue:
                 if node is None:
                     continue
-
+                
+                prev_node.next = node
+                prev_node = node
+            
                 if node.left:
                     queue2.append(node.left)
                 
                 if node.right:
                     queue2.append(node.right)
-
-                if node != prev_node:
-                    prev_node.next = node
-                    
-                prev_node = node     
+            
             queue = queue2
+            prev_node = ListNode()
+
+
+        
+    def connect(self, root: 'Node') -> 'Node':
+        if root is None:
+            return None
+
+        self.traverse(root)
 
         return root
+        
