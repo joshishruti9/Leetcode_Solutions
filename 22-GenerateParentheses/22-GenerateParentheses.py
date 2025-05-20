@@ -1,4 +1,4 @@
-# Last updated: 5/19/2025, 8:00:55 PM
+# Last updated: 5/20/2025, 2:23:43 PM
 class Solution:
     def traverse(self, open_count, close_count, n, curr_res):
         if close_count == n and open_count == n:
