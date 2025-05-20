@@ -1,4 +1,4 @@
-# Last updated: 5/20/2025, 12:22:55 AM
+# Last updated: 5/20/2025, 12:26:39 AM
 class Solution:
     def merge(self, left, right):
         i = 0
@@ -17,15 +17,18 @@ class Solution:
         result += right[j:]
 
         return result
+    
+    def merge_sort(self, nums, low, high):
+        if low == high:
+            return nums[low:high+1]
+        
+        mid = (low + high) // 2
+
+        left = self.merge_sort(nums,low,mid)
+        right = self.merge_sort(nums,mid+1,high)
+
+        return self.merge(left,right)
 
     def sortArray(self, nums: List[int]) -> List[int]:
 
-        if len(nums) <= 1:
-            return nums
-        
-        mid = len(nums) // 2
-
-        left = self.sortArray(nums[:mid])
-        right = self.sortArray(nums[mid:])
-
-        return self.merge(left,right)
+        return self.merge_sort(nums,0,len(nums)-1)
