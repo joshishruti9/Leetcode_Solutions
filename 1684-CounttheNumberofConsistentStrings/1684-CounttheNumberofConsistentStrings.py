@@ -1,21 +1,13 @@
-# Last updated: 5/25/2025, 1:32:36 PM
+# Last updated: 5/25/2025, 1:33:23 PM
 class Solution:
     def countConsistentStrings(self, allowed: str, words: List[str]) -> int:
-        set_str = set(allowed)
-        flag = False
-        count = 0
-
+        count=len(words)
+        allowed_set=set(allowed)
         for word in words:
-            for char in word:
-                if char in set_str:
-                    flag = True
-                else:
-                    flag = False
+            for letters in word:
+                if letters not in allowed_set:
+                    count-=1
                     break
-
-            if flag:
-                count += 1
-                flag= False
-        
+                else:
+                    continue
         return count
-        
