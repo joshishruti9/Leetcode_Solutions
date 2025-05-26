@@ -1,4 +1,4 @@
-# Last updated: 5/25/2025, 6:48:51 PM
+# Last updated: 5/25/2025, 6:49:22 PM
 class Solution:
     def numberOfEmployeesWhoMetTarget(self, hours: List[int], target: int) -> int:
         count = 0
