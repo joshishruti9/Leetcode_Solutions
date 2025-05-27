@@ -1,10 +1,8 @@
-# Last updated: 5/27/2025, 1:34:19 PM
+# Last updated: 5/27/2025, 1:35:14 PM
 class Solution:
     def finalPrices(self, prices: List[int]) -> List[int]:
 
         n = len(prices)
-        answer = [0 for i in range(n)]
-        min_latest = 1001
         next_min = []
         flag = False
 
@@ -21,9 +19,6 @@ class Solution:
         next_min.append(0)
 
         for i in range(n):
-            answer[i] = prices[i] - next_min[i]
+            next_min[i] = prices[i] - next_min[i]
 
-        return answer
-                
-            
-        
+        return next_min    
