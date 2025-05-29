@@ -1,4 +1,4 @@
-# Last updated: 5/28/2025, 7:31:52 PM
+# Last updated: 5/28/2025, 7:32:11 PM
 import math
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
