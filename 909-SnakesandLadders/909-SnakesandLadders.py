@@ -1,4 +1,4 @@
-# Last updated: 5/31/2025, 1:00:55 PM
+# Last updated: 6/5/2025, 2:57:13 PM
 from collections import deque
 class Solution:
     def get_row_col(self, pos, n):
