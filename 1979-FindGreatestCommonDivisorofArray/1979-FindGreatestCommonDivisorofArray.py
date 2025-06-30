@@ -1,4 +1,4 @@
-# Last updated: 6/30/2025, 4:37:16 PM
+# Last updated: 6/30/2025, 4:45:24 PM
 class Solution:
     def find_min(self, nums):
         min_num = float('inf')
@@ -18,14 +18,10 @@ class Solution:
     
     def find_gcd(self, num1, num2):
 
-        if num1 == 0 :
-            return num2
-        elif num2 == 0:
-            return num1
-
-        num = self.find_gcd(num2, num1 % num2)
+        while num1 > 0  and num2 > 0:
+            num1, num2 = num2, num1 % num2
         
-        return num
+        return num1
 
     def findGCD(self, nums: List[int]) -> int:
         min_num = self.find_min(nums)
