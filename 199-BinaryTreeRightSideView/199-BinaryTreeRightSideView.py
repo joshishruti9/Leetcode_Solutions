@@ -1,4 +1,4 @@
-# Last updated: 6/30/2025, 10:28:28 PM
+# Last updated: 6/30/2025, 10:29:24 PM
 from collections import deque
 # Definition for a binary tree node.
 # class TreeNode:
@@ -7,8 +7,15 @@ from collections import deque
 #         self.left = left
 #         self.right = right
 class Solution:
-    def bfs(self, queue):
+    def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
+        self.res = []
 
+        if root is None:
+            return self.res
+        
+        queue = deque()
+        queue.append(root)
+        
         while queue:
             queue2 = []
             self.res.append(queue[-1].val)
@@ -21,17 +28,5 @@ class Solution:
                     queue2.append(node.right)
             
             queue = queue2
-
-
-    def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
-        self.res = []
-
-        if root is None:
-            return self.res
         
-        queue = deque()
-        queue.append(root)
-        
-        
-        self.bfs(queue)
         return self.res
