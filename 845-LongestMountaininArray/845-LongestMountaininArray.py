@@ -1,4 +1,4 @@
-# Last updated: 4/27/2025, 3:59:00 PM
+# Last updated: 7/6/2025, 4:41:24 PM
 class Solution:
     def longestMountain(self, arr: List[int]) -> int:
         n = len(arr)
@@ -15,6 +15,7 @@ class Solution:
                 i += 1
             peak = i
             
+
             while i < n-1 and arr[i] > arr[i+1]:
                 i += 1
             end = i
@@ -22,6 +23,6 @@ class Solution:
             if peak != end:    
                 max_len = max(max_len, (end-start+1))
         
-        return max_len
+        return 0 if (max_len==0 and(end == start or start == peak or end == peak)) else max_len
        
         
