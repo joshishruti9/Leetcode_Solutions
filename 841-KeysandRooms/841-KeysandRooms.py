@@ -1,17 +1,19 @@
-# Last updated: 4/4/2025, 2:42:55 PM
+# Last updated: 7/6/2025, 4:18:22 PM
 from collections import deque
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
-        
+        start = 0
         queue = deque()
-        visited = set()
         queue.append(0)
+        visited = set()
         visited.add(0)
-        while queue:
-            room = queue.popleft()
-            for room in rooms[room]:
-                if room not in visited:
-                    queue.append(room)
-                    visited.add(room)
 
-        return len(visited) == len(rooms)
+        while queue:
+            num = queue.popleft()
+            nodes = rooms[num]
+            for node in nodes:
+                if node not in visited:
+                    queue.append(node)
+                    visited.add(node) 
+
+        return len(rooms) == len(visited)
