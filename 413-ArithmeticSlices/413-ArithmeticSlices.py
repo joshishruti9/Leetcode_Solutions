@@ -1,13 +1,8 @@
-# Last updated: 7/7/2025, 7:17:07 PM
+# Last updated: 7/7/2025, 7:18:32 PM
 class Solution:
     def find_count(self, num):
-        if num in self.dp:
-            return self.dp[num]
+        return (num - 2) * (num - 1) // 2
         
-        diff = num - 3
-        self.dp[num] = self.find_count(num-1) + diff + 1
-        return self.dp[num]
-
     def find_subarrays(self, nums):
 
         n = len(nums)
