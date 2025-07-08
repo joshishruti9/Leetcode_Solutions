@@ -1,4 +1,4 @@
-# Last updated: 7/7/2025, 7:15:59 PM
+# Last updated: 7/7/2025, 7:17:07 PM
 class Solution:
     def find_count(self, num):
         if num in self.dp:
@@ -20,8 +20,8 @@ class Solution:
             while j + 1 < n and nums[j + 1] - nums[j] == diff:
                 j += 1
 
-            if j - i + 1 >= 3:       
-                total += self.find_count(j-i+1)
+            
+            total += self.find_count(j-i+1)
             i = j       
     
         return total
