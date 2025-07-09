@@ -1,13 +1,23 @@
-# Last updated: 7/9/2025, 4:28:47 PM
+# Last updated: 7/9/2025, 4:40:36 PM
 class Solution:
     def canBeTypedWords(self, text: str, brokenLetters: str) -> int:
 
         letters = set(brokenLetters)
-        count = 0
-        i = 0
-        n = len(text)
-        flag = False
 
+        words = text.split(' ')
+        count = 0
+        flag = True
+
+        for word in words:
+            flag = True
+            for letter in word:
+                if letter in letters:
+                    flag = False
+                    break
+            if flag:
+                count += 1
+            
+        '''
         while i < n:
             if text[i] in letters:
                 while i < n and text[i] != " ":
@@ -26,5 +36,6 @@ class Solution:
         
         if flag:
             count += 1
-        
+        '''
+
         return count
