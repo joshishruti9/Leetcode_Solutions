@@ -1,4 +1,4 @@
-# Last updated: 7/9/2025, 5:42:46 PM
+# Last updated: 7/9/2025, 5:48:54 PM
 from heapq import heappush, heappop
 class Solution:
     def maximumProduct(self, nums: List[int], k: int) -> int:
@@ -14,7 +14,7 @@ class Solution:
         
         mul = 1
 
-        while min_heap:
-            mul = mul * heappop(min_heap)
+        for num in min_heap:
+            mul = mul * num
         
         return mul % (10 ** 9 + 7)
