@@ -1,4 +1,4 @@
-# Last updated: 7/14/2025, 10:27:27 PM
+# Last updated: 7/14/2025, 10:30:13 PM
 from heapq import heappush, heappop
 class Solution:
     def find_neighbours(self, movetime, i, j, curr_time, queue, visited):
@@ -9,11 +9,9 @@ class Solution:
 
         for di, dj in directions:
             if 0 <= i + di < m and 0 <= j + dj < n:
-                if movetime[i+di][j+dj] <= (curr_time):
-                    heappush(queue, (curr_time + 1, i+di, j+dj))
-                else:
-                    heappush(queue, (movetime[i+di][j+dj] + 1, i+di, j+dj))
-
+                time = max(curr_time, movetime[i+di][j+dj])
+                heappush(queue,(time+1, i+di, j+dj))
+                
     def find_total_time(self, moveTime):
         queue = []
         visited = set()
