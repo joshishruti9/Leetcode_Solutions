@@ -1,16 +1,38 @@
-# Last updated: 7/15/2025, 11:59:30 PM
+# Last updated: 7/16/2025, 12:38:03 AM
 class Solution:
+    def find_last(self, nums, target, low, high):
+
+        while low < high:
+            mid = (low + high) // 2
+            if nums[mid] <= target:
+                low = mid + 1
+            else:
+                high = mid
+
+        return high-1 if high > 0 and nums[high-1]==target else -1 
+
+    def find_first(self, nums, target, low, high):
+    
+        while low < high:
+            mid = (low + high) // 2
+
+            if target <= nums[mid]:
+                high = mid
+            else:
+                low = mid + 1
+
+        print(low)
+        return low if low < len(nums) and nums[low] == target else -1 
+             
+
     def searchRange(self, nums: List[int], target: int) -> List[int]:
 
-        start = -1
-        end = -1
+        n = len(nums)
+        if n == 0:
+            return [-1,-1]
 
-        for i in range(len(nums)):
-            if nums[i] == target and start == -1:
-                start = i
-                end = i
-            elif nums[i] == target and start != -1:
-                end = i
+        res1 = self.find_first(nums, target, 0, n)
+        res2 = self.find_last(nums, target, 0, n)
         
-        return [start,end]
+        return [res1,res2]
         
