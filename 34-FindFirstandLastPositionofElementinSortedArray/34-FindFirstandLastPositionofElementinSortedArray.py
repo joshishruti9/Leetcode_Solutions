@@ -1,4 +1,4 @@
-# Last updated: 7/16/2025, 12:38:03 AM
+# Last updated: 7/16/2025, 12:38:23 AM
 class Solution:
     def find_last(self, nums, target, low, high):
 
@@ -21,7 +21,6 @@ class Solution:
             else:
                 low = mid + 1
 
-        print(low)
         return low if low < len(nums) and nums[low] == target else -1 
              
 
