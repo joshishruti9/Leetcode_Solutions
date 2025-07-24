@@ -1,41 +1,24 @@
-# Last updated: 7/23/2025, 6:26:50 PM
+# Last updated: 7/23/2025, 6:34:13 PM
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
-        
         res = []
-
-        new_list = [newInterval,[float("inf"),float("inf")]]
+    
+        for interval in intervals:
+            if interval[1] < newInterval[0]:
+                res.append(interval)
+            
+            elif interval[0] > newInterval[1]:
+                res.append(newInterval)
+                newInterval = interval  # move current interval into merge position
+            
+            else:
+                newInterval[0] = min(newInterval[0], interval[0])
+                newInterval[1] = max(newInterval[1], interval[1])
+        
+        res.append(newInterval)
+        
+        return res
 
         
-        intervals.append([float("inf"),float("inf")])
-
-        p1 = 0
-        p2 = 0
-
-        while p1 < len(intervals) and p2 < len(new_list):
-            if intervals[p1][0] < new_list[p2][0]:
-                if res:
-                    if res[-1][1] >= intervals[p1][0]:
-                        start = min(res[-1][0], intervals[p1][0])
-                        end = max(res[-1][1], intervals[p1][1])
-                        res.pop()
-                        res.append([start, end])
-                    else:
-                        res.append([intervals[p1][0],intervals[p1][1]])
-                else:
-                    res.append([intervals[p1][0],intervals[p1][1]])
-                p1 += 1
-            else:
-                if res:
-                    if res[-1][1] >= new_list[p2][0]:
-                        start = min(res[-1][0], new_list[p2][0])
-                        end = max(res[-1][1], new_list[p2][1])
-                        res.pop()
-                        res.append([start, end])
-                    else:
-                        res.append([new_list[p2][0],new_list[p2][1]])
-                else:
-                    res.append([new_list[p2][0],new_list[p2][1]])
-                p2 += 1
-            
-        return res[:-1]
+        
+        
