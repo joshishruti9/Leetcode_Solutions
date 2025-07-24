@@ -1,4 +1,4 @@
-# Last updated: 7/23/2025, 6:26:40 PM
+# Last updated: 7/23/2025, 6:26:50 PM
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         
@@ -37,7 +37,5 @@ class Solution:
                 else:
                     res.append([new_list[p2][0],new_list[p2][1]])
                 p2 += 1
-            
-            print(res)
             
         return res[:-1]
