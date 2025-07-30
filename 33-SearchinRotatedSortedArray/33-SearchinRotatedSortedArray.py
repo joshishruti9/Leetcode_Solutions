@@ -1,30 +1,32 @@
-# Last updated: 7/30/2025, 2:41:00 PM
+# Last updated: 7/30/2025, 2:41:35 PM
 class Solution:
-    def bisect_left(self, nums, low, high, target):
+    def binary_search(self, nums, low, high, target):
 
         while low < high:
-            mid = (high + low) // 2
+            mid = (low + high) // 2
 
             if nums[mid] == target:
                 return mid
-
+            
             if nums[low] <= nums[mid]:
                 if nums[low] <= target < nums[mid]:
                     high = mid
                 else:
-                    low = mid + 1
+                    low = mid + 1         
             else:
-                if nums[mid] < target <= nums[high-1]:
+                if nums[high-1] >= target > nums[mid]:
                     low = mid + 1
                 else:
                     high = mid
-
+        
         return low
-            
-    def search(self, nums: List[int], target: int) -> int:
-        n = len(nums)
-        index = self.bisect_left(nums, 0, n, target)
+           
 
+    def search(self, nums: List[int], target: int) -> int:
+
+        index = self.binary_search(nums, 0, len(nums), target)
+        print(index)
+        
         if index < len(nums) and nums[index] == target:
             return index
         
