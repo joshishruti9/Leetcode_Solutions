@@ -1,4 +1,4 @@
-# Last updated: 7/30/2025, 2:41:35 PM
+# Last updated: 8/1/2025, 11:25:00 PM
 class Solution:
     def binary_search(self, nums, low, high, target):
 
