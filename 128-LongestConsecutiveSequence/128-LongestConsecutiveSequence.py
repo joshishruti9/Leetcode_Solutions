@@ -1,4 +1,4 @@
-# Last updated: 6/5/2025, 4:23:32 PM
+# Last updated: 8/4/2025, 4:32:36 PM
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
 
