@@ -1,4 +1,4 @@
-# Last updated: 8/6/2025, 1:04:16 PM
+# Last updated: 8/6/2025, 1:13:16 PM
 from heapq import heappush, heappop
 class Solution:
     def maximumScore(self, a: int, b: int, c: int) -> int:
@@ -10,13 +10,18 @@ class Solution:
         heappush(max_heap, -b)
         heappush(max_heap, -c)
 
-        while max1 != 0 and max2 != 0:
-            max1 = heappop(max_heap)
-            max2 = heappop(max_heap)
+        while True:
+            max1 = -heappop(max_heap)
+            max2 = -heappop(max_heap)
 
-            heappush(max_heap, max1+1)
-            heappush(max_heap, max2+1)
+            print(max1, " ", max2)
+
+            if max1 == 0 or max2 == 0:
+                break
 
             count += 1
-        
-        return count-1
+            heappush(max_heap, -(max1-1))
+            heappush(max_heap, -(max2-1))
+
+               
+        return count
