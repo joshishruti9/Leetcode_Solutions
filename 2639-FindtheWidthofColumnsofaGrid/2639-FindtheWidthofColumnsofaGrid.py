@@ -1,4 +1,4 @@
-# Last updated: 8/6/2025, 1:42:40 PM
+# Last updated: 8/7/2025, 12:03:53 PM
 class Solution:
     def findColumnWidth(self, grid: List[List[int]]) -> List[int]:
         m = len(grid)
@@ -7,8 +7,8 @@ class Solution:
 
         for i in range(n):
             max_len = 0
-            for j in range(m):
-                max_len = max(max_len, len(str(grid[j][i])))
+            for row in grid:
+                max_len = max(max_len, len(str(row[i])))
             
             ans.append(max_len)
         
