@@ -1,4 +1,4 @@
-# Last updated: 8/6/2025, 8:40:23 PM
+# Last updated: 8/6/2025, 8:40:32 PM
 class Solution:
     def unhappyFriends(self, n: int, preferences: List[List[int]], pairs: List[List[int]]) -> int:
         hmap = dict()
@@ -13,7 +13,6 @@ class Solution:
                 pref_cnt += 1
             hmap[i] = fmap
 
-        print(hmap)
         unhappy = set()
         for i in range(len(pairs)):
             x, y = pairs[i][0], pairs[i][1]
