@@ -1,4 +1,4 @@
-# Last updated: 8/9/2025, 11:46:21 PM
+# Last updated: 8/9/2025, 11:50:21 PM
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -34,8 +34,6 @@ class Solution:
 
         self.traverse(root)
         nums = sorted(self.res, reverse = True)
-
-        print(nums)
 
         if len(nums) < k:
             return -1
