@@ -1,5 +1,5 @@
-# Last updated: 8/11/2025, 2:35:52 PM
-from collections import deque
+# Last updated: 8/11/2025, 4:43:34 PM
+from heapq import heappush, heappop
 class Solution:
     def create_adjList(self, edges, succProb):
         adj_list = {}
@@ -17,33 +17,34 @@ class Solution:
 
         return adj_list
 
-    def find_neighbour(self, visited, queue, end, adj_list):
-        while queue:
-            node, prob = queue.popleft()
+    def find_neighbour(self, visited, pri_queue, end, adj_list):
+        while pri_queue:
+            prob, node = heappop(pri_queue)
             neighbours = adj_list.get(node,[])
+            prob = prob * -1
+
+            if node == end:
+                self.res = max(self.res, prob)
+                return
 
             for neighbour, succProb in neighbours:
                 curr_prob = prob * succProb
-                if neighbour in visited:
-                    if curr_prob <= visited.get(neighbour,0):
-                        continue
-                if neighbour == end:
-                        self.res = max(self.res, curr_prob)
-                queue.append((neighbour,curr_prob))
-                visited[neighbour] = curr_prob
-                
-                      
+                if curr_prob <= visited.get(neighbour,0):
+                    continue
+
+                heappush(pri_queue,(-curr_prob,neighbour))
+                visited[neighbour] = curr_prob                   
        
     def maxProbability(self, n: int, edges: List[List[int]], succProb: List[float], start_node: int, end_node: int) -> float:
         
         adj_list = self.create_adjList(edges, succProb)
         visited = {}
-        queue = deque()
-        queue.append((start_node,1))
+        pri_queue = []
+        heappush(pri_queue,(-1.0,start_node))
         visited[start_node] = 1.0
 
         self.res = 0.0
         
-        self.find_neighbour(visited, queue, end_node, adj_list)
+        self.find_neighbour(visited, pri_queue, end_node, adj_list)
         
         return self.res
