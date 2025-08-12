@@ -1,34 +1,20 @@
-# Last updated: 8/10/2025, 1:48:57 AM
+# Last updated: 8/11/2025, 6:56:55 PM
 class Solution:
-    def find_trip_possibility(self, trips, capacity):
-        curr_capacity = capacity
-        prev_end = 0
-        prev_trip = []
-        i = 0
-
-        for cust, start, end in trips:
-            i = 0
-            while i < len(prev_trip):
-                prev_cust, prev_end = prev_trip[i]
-                if start >= prev_end:
-                    curr_capacity += prev_cust
-                    prev_trip.pop(i)
-                else:
-                    i += 1
-                
-            if cust <= curr_capacity:
-                curr_capacity -= cust
-            else:
-                return False
-        
-            prev_trip.append((cust, end))
-
-        return True
-
 
     def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
-        def sort_func(trips):
-            return trips[1]
+        nums = []
+        for curr_cap, start, end in trips:
+            nums.append((start,curr_cap))
+            nums.append((end, -curr_cap))
+            
 
-        trips.sort(key = sort_func)
-        return self.find_trip_possibility(trips, capacity)
+        nums.sort()
+
+        cap = 0
+        for time, curr_cap in nums:
+            cap += curr_cap
+
+            if cap > capacity:
+                return False
+        
+        return True
