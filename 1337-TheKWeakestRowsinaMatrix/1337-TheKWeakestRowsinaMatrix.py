@@ -1,4 +1,4 @@
-# Last updated: 8/13/2025, 2:54:02 PM
+# Last updated: 8/13/2025, 2:55:46 PM
 from heapq import heappush, heappop
 
 class Solution:
@@ -13,7 +13,7 @@ class Solution:
                 heappush(arr, (-count, -i))
             else:
                 count1, j = heappop(arr)
-                if count < -count1 or (count == -count1 and i < j) :
+                if count < -count1 or (count == -count1 and i < -j) :
                     heappush(arr,(-count,-i))
                 else:
                     heappush(arr,(count1,j))
