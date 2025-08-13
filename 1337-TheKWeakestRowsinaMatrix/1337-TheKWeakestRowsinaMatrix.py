@@ -1,4 +1,4 @@
-# Last updated: 8/13/2025, 2:55:46 PM
+# Last updated: 8/13/2025, 2:58:10 PM
 from heapq import heappush, heappop
 
 class Solution:
@@ -23,3 +23,14 @@ class Solution:
             res.append(-i)
         
         return res[::-1]
+
+        '''
+        strength = []
+        
+        for i, row in enumerate(mat):
+            soldiers = sum(row)  # Since 1s are always on the left
+            strength.append((soldiers, i))
+        
+        strength.sort()  # First by soldier count, then by row index
+        return [index for _, index in strength[:k]]
+        '''
