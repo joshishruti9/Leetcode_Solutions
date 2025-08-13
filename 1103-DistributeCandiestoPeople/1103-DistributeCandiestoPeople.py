@@ -1,4 +1,4 @@
-# Last updated: 8/13/2025, 3:14:17 PM
+# Last updated: 8/13/2025, 3:15:19 PM
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
 
