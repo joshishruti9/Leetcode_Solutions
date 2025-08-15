@@ -1,4 +1,4 @@
-# Last updated: 8/15/2025, 3:12:42 PM
+# Last updated: 8/15/2025, 3:13:35 PM
 class Solution:
     def trap(self, height: List[int]) -> int:
         stack = []
@@ -19,7 +19,6 @@ class Solution:
                 i += 1
             else:
                 min_val = min(curr_high, height[i])
-                max_val = max(curr_high, height[i])
                 while stack:
                     val = stack.pop()
                     total += (min_val - val)
