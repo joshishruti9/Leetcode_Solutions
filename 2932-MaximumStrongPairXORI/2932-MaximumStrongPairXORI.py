@@ -1,4 +1,4 @@
-# Last updated: 8/16/2025, 8:58:03 PM
+# Last updated: 8/16/2025, 8:58:28 PM
 from collections import deque
 class Solution:
     def longestOnes(self, nums: List[int], k: int) -> int:
@@ -19,10 +19,7 @@ class Solution:
                         i += 1
                         j = i
                         count = count - 1
-                        print("Count:", count)
                         count = max(count,0)
-                    
-                    print("max_count: ",max_count,"j: ",j, "i: ",i)
                 else:
                     count += 1
                     queue.append(j)
