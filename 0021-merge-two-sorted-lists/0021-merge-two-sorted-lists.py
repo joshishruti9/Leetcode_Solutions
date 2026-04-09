@@ -25,17 +25,11 @@ class Solution:
             
             prev = prev.next
         
-        while node1:
-            prev.next = node1
-            node1 = node1.next
-            prev = prev.next
-        
-        while node2:
-            prev.next = node2
-            node2 = node2.next
-            prev = prev.next
-        
+        node = node1 if node1 else node2
+
+        while node:
+            prev.next = node
+            prev = node
+            node = node.next
+
         return psuedo_head.next
-
-
-        
