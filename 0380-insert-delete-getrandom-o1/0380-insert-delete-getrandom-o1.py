@@ -1,28 +1,40 @@
 class RandomizedSet:
 
     def __init__(self):
-        self.ans = set()
+        self.ans = []
+        self.hmap = {}
         
 
     def insert(self, val: int) -> bool:
-        if val not in self.ans:
-            self.ans.add(val)
+        if val not in self.hmap:
+            self.ans.append(val)
+            index = len(self.ans) - 1 #index of val
+            self.hmap[val] = index
             return True
         
         return False
         
 
     def remove(self, val: int) -> bool:
-        if val in self.ans:
-            self.ans.remove(val)
+        if val in self.hmap:
+            index = self.hmap[val]
+
+            temp = self.ans[-1]
+            self.ans[-1] = self.ans[index]
+            self.ans[index] = temp
+
+            self.hmap[temp] = index
+
+            self.ans.pop()
+            self.hmap.pop(val)
+
             return True
         
         return False
         
 
     def getRandom(self) -> int:
-
-        return random.choice(list(self.ans))
+        return random.choice(self.ans)
         
 
 
