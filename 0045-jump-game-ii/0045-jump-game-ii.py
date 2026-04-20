@@ -6,7 +6,6 @@ class Solution:
 
         memo[n-1] = 0
 
-
         for i in range(n-2, -1, -1):
             end = min(n-1, nums[i]+i)
             for j in range(i+1, end+1):
