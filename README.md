@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0006-zigzag-conversion](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0006-zigzag-conversion) |
 | [0125-valid-palindrome](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0125-valid-palindrome) |
 | [0392-is-subsequence](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0392-is-subsequence) |
 ## Binary Search
