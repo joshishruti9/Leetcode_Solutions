@@ -9,10 +9,10 @@ class Solution:
         while x > 0:
             num = (num * 10) + (x % 10)
             x = x // 10
+
+            if num > (2**31)-1 or num < -(2**31):
+                return 0
         
         num = num * mul
-
-        if num > (2**31)-1 or num < -(2**31):
-            return 0
         
         return num
