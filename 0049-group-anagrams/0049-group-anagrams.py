@@ -7,8 +7,4 @@ class Solution:
             sorted_word = str(sorted(word))
             hmap[sorted_word].append(word)
         
-        res = []
-        for key, val in hmap.items():
-            res.append(val)
-
-        return res
+        return list(hmap.values())
