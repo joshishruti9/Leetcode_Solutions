@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0045-jump-game-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
+| [0049-group-anagrams](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0055-jump-game) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0242-valid-anagram) |
@@ -77,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0242-valid-anagram) |
 ## Counting
@@ -107,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0006-zigzag-conversion](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0006-zigzag-conversion) |
+| [0049-group-anagrams](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0242-valid-anagram) |
