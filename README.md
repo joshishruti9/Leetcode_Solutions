@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0205-isomorphic-strings) |
 | [0219-contains-duplicate-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0242-valid-anagram) |
+| [0290-word-pattern](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0290-word-pattern) |
 | [0380-insert-delete-getrandom-o1](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0383-ransom-note) |
 | [0496-next-greater-element-i](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0496-next-greater-element-i) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0242-valid-anagram) |
+| [0290-word-pattern](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0392-is-subsequence) |
 ## Binary Search
