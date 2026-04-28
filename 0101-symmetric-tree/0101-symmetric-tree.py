@@ -10,14 +10,9 @@ class Solution:
             return True
         
         if lnode is None or rnode is None:
-            return False
-
-        flag = False
-        if lnode.val == rnode.val:
-            flag = True
+            return False  
         
-        
-        return flag and self.traverse(lnode.left, rnode.right) and self.traverse(lnode.right, rnode.left)
+        return lnode.val == rnode.val and self.traverse(lnode.left, rnode.right) and self.traverse(lnode.right, rnode.left)
         
 
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
