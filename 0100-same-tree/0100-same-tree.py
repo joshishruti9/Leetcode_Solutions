@@ -11,14 +11,8 @@ class Solution:
         
         if pnode is None or qnode is None:
             return False
-        
-        left = False
-        right = False
-        
-        left = self.traverse(pnode.left, qnode.left)    
-        right = self.traverse(pnode.right, qnode.right)
-        
-        return pnode.val == qnode.val and left and right
+          
+        return pnode.val == qnode.val and self.traverse(pnode.left, qnode.left)    and self.traverse(pnode.right, qnode.right)
 
 
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
