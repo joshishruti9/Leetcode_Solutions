@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0173-binary-search-tree-iterator](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0173-binary-search-tree-iterator) |
 | [0496-next-greater-element-i](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0173-binary-search-tree-iterator) |
 | [0380-insert-delete-getrandom-o1](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 ## Randomized
 |  |
@@ -171,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0112-path-sum) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0173-binary-search-tree-iterator](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0173-binary-search-tree-iterator) |
 | [0222-count-complete-tree-nodes](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0226-invert-binary-tree) |
 ## Binary Tree
@@ -181,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0112-path-sum) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0173-binary-search-tree-iterator](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0173-binary-search-tree-iterator) |
 | [0222-count-complete-tree-nodes](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0226-invert-binary-tree) |
 ## Bit Manipulation
@@ -191,4 +195,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0173-binary-search-tree-iterator) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
