@@ -8,9 +8,6 @@ class Solution:
     def traverse(self, node):
         if node is None:
             return None, None
-
-        if node.left is None and node.right is None:
-            return node, node
        
         lnode, llast_node = self.traverse(node.left)
         rnode, rlast_node = self.traverse(node.right)
@@ -20,7 +17,7 @@ class Solution:
             llast_node.right = rnode
             node.right = lnode
             
-        return node,rlast_node or llast_node or node
+        return node, rlast_node or llast_node or node
 
 
 
