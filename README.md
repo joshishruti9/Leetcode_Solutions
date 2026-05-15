@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0048-rotate-image) |
 | [0202-happy-number](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0202-happy-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [1185-day-of-the-week](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1185-day-of-the-week) |
 ## Design
 |  |
 | ------- |
