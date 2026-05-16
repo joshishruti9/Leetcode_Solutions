@@ -20,6 +20,9 @@ class Solution:
 
         og_color = image[sr][sc]
 
+        if og_color == color:
+            return image
+
         queue.append((sr, sc))
         visited.add((sr, sc))
 
