@@ -8,25 +8,26 @@ class Solution:
     def traverse(self, node):
         if node is None:
             return None, None
-       
-        lnode, llast_node = self.traverse(node.left)
-        rnode, rlast_node = self.traverse(node.right)
         
-        if node.left:
-            node.left = None
-            llast_node.right = rnode
-            node.right = lnode
-            
-        return node, rlast_node or llast_node or node
+        if node.left is None and node.right is None:
+            return node, node
 
+        lstart , lend = self.traverse(node.left)
+        rstart , rend = self.traverse(node.right)
+        
+        if lstart:
+            node.right = lstart
+            lend.right = rstart
+            node.left = None
+        
+        return node, rend if rend != None else lend 
 
 
     def flatten(self, root: Optional[TreeNode]) -> None:
         """
         Do not return anything, modify root in-place instead.
         """
-        if not root:
-            return None
-        
         self.traverse(root)
+
+        
         
