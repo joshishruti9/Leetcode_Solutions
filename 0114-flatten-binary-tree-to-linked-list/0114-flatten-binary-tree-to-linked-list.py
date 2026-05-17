@@ -27,7 +27,9 @@ class Solution:
         """
         Do not return anything, modify root in-place instead.
         """
-        self.traverse(root)
+
+        if root:
+            self.traverse(root)
 
         
         
