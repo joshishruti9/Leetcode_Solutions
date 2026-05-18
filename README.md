@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0496-next-greater-element-i) |
 | [0733-flood-fill](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0739-daily-temperatures) |
+| [0994-rotting-oranges](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 ## Stack
 |  |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0226-invert-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0733-flood-fill](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0733-flood-fill) |
+| [0994-rotting-oranges](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0994-rotting-oranges) |
 ## Union-Find
 |  |
 | ------- |
@@ -98,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0733-flood-fill) |
+| [0994-rotting-oranges](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0994-rotting-oranges) |
 ## Two Pointers
 |  |
 | ------- |
