@@ -15,14 +15,14 @@ class Solution:
 
         m = len(matrix)
         n = len(matrix[0])
-        row = 0
+        count = 0
         index = 0
 
-        while row < m:
-            if matrix[row][0] <= target and target <= matrix[row][n-1]:
-                index = self.search(0, n-1, target, matrix[row])
-                return matrix[row][index] ==  target
+        for row in matrix:
+            if row[0] <= target and target <= row[n-1]:
+                index = self.search(0, n-1, target, row)
+                return matrix[count][index] ==  target
             
-            row += 1
+            count += 1
 
         return False
