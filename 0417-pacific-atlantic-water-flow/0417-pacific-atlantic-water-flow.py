@@ -48,11 +48,6 @@ class Solution:
 
         pacific_set = self.traverse(heights, queue2, visited2, m, n)
 
-        res = []
+        return list(pacific_set & atlantic_set)
 
-        for (i,j) in pacific_set:
-            if (i, j) in atlantic_set:
-                res.append((i,j))
-        
-        return res
         
