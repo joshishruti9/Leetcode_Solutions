@@ -3,13 +3,18 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
+        low = 0
+        high = len(nums)-1
+        mid = 0
 
-        counter = Counter(nums)
-        k = 0
-
-        for i in range(3):
-            count = counter[i]
-            for j in range(count):
-                nums[k] = i
-                k += 1
+        while mid <= high:
+            if nums[mid] == 0:
+                nums[low], nums[mid] = nums[mid], nums[low]
+                low += 1
+                mid += 1
+            elif nums[mid] == 2:
+                nums[high], nums[mid] = nums[mid], nums[high]
+                high -= 1
+            else:
+                mid += 1
         
