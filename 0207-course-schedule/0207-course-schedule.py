@@ -1,13 +1,12 @@
 from collections import deque
 
 class Solution:
-    def find_root(self, numCourses, pre_counter, visited):
+    def find_root(self, numCourses, pre_counter):
         roots = deque()
         
         for num in range(numCourses):
             if num not in pre_counter:
                 roots.append(num)
-                visited.add(num)
 
         return roots
 
@@ -35,8 +34,8 @@ class Solution:
         
         return adj_list
     
-    def traverse(self, queue, adj_list, counter, visited):
-
+    def traverse(self, queue, adj_list, counter):
+        visited = len(queue)
         while queue:
             node = queue.popleft()
             courses = adj_list.get(node,[])
@@ -46,7 +45,7 @@ class Solution:
 
                 if counter[course] == 0:
                     queue.append(course)
-                    visited.add(course)
+                    visited += 1
 
         return visited
 
@@ -56,8 +55,9 @@ class Solution:
 
         adj_list = self.create_adjList(prerequisites)
         pre_counter = self.prerequisite_counter(prerequisites)
-        roots = self.find_root(numCourses, pre_counter, visited)
-        visit = self.traverse(roots, adj_list, pre_counter, visited)
+        roots = self.find_root(numCourses, pre_counter)
+        count = self.traverse(roots, adj_list, pre_counter)
 
-        return len(visit) == numCourses
+        return count == numCourses
+
         
