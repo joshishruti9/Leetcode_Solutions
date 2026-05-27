@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0020-valid-parentheses) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0173-binary-search-tree-iterator](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0173-binary-search-tree-iterator) |
 | [0496-next-greater-element-i](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0496-next-greater-element-i) |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0006-zigzag-conversion](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0006-zigzag-conversion) |
+| [0020-valid-parentheses](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0125-valid-palindrome) |
