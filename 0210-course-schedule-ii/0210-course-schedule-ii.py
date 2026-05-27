@@ -53,5 +53,4 @@ class Solution:
         queue = self.find_root(counter, numCourses)
         res = self.traverse(adj_list, queue, counter)
 
-        print(res)
         return res if len(res) == numCourses else []
