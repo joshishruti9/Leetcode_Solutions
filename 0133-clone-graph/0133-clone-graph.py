@@ -39,5 +39,5 @@ class Solution:
                     new_neighbour = hmap[neighbour_node]
                     new_node.neighbors.append(new_neighbour)
         
-        return hmap[root]
+        return hmap[node]
         
