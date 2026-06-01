@@ -35,11 +35,8 @@ class Solution:
         num2 = self.create_num(l2)
 
         if num1+num2 == 0:
-            return ListNode(val=0)
+            return ListNode(val = 0)
 
         node = self.create_list(num1+num2)
 
         return node
-
-
-        
