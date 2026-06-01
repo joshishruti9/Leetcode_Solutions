@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0048-rotate-image) |
@@ -284,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0002-add-two-numbers) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 ## Binary Search Tree
@@ -305,4 +307,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0210-course-schedule-ii) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
