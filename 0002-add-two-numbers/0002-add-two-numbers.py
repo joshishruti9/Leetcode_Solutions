@@ -15,7 +15,6 @@ class Solution:
             prev = prev.next
             num = num // 10
         
-        prev.next = None
         return psuedo_head.next
 
     def create_num(self, node):
