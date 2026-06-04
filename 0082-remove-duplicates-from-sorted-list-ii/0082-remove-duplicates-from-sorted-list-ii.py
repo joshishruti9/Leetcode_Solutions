@@ -4,34 +4,27 @@
 #         self.val = val
 #         self.next = next
 class Solution:
+    # We will compare curr_node val to prev_node value if it is same we will join prev_node to next_node of curr_node 
+
     def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if not head:
-            return None
-        
-        if not head.next:
+
+        if not head or not head.next:
             return head
 
-        psuedo_head = ListNode()
-        prev_node = psuedo_head
-        prev_node.next = head
-        curr_node = head
-        next_node = head.next
+        fake_head = ListNode()
+        prev_node = fake_head
+        node = head
 
-        while next_node:
-            if curr_node.val == next_node.val:
-                while next_node and curr_node.val == next_node.val:
-                    next_node = next_node.next
-                
-                prev_node.next = next_node
-                curr_node = next_node
-                
-                if next_node:
-                    next_node = next_node.next
-
+        while node and node.next:
+            if node.val != node.next.val:
+                prev_node.next = node
+                prev_node = node 
+                node = node.next
             else:
-                prev_node = prev_node.next
-                curr_node = curr_node.next
-                next_node = next_node.next
-        
-        return psuedo_head.next
-        
+                while node.next and node.val == node.next.val:
+                    node = node.next
+                prev_node.next = node.next
+                node.next = None
+                node = prev_node.next
+
+        return fake_head.next
