@@ -20,18 +20,18 @@ class UndergroundSystem:
             time_difference = t - start_time
 
             if (start_station_name, stationName) in self.avgTimeMap:
-                curr_total_time, count = self.avgTimeMap.pop((start_station_name, stationName))
-                curr_total_time += time_difference
-                count += 1
-                self.avgTimeMap[((start_station_name, stationName))] = (curr_total_time, count)
+                curr_avg_time, count = self.avgTimeMap.pop((start_station_name, stationName))
+                #curr_total_time += time_difference
+                curr_avg_time = (((curr_avg_time * count) + time_difference) / (count+1))
+                self.avgTimeMap[((start_station_name, stationName))] = (curr_avg_time, count+1)
             else:
                 self.avgTimeMap[((start_station_name, stationName))] = (time_difference, 1)
 
 
 
     def getAverageTime(self, startStation: str, endStation: str) -> float:
-        curr_total_time, count = self.avgTimeMap.get((startStation, endStation))
-        return curr_total_time / count
+        curr_avg_time, count = self.avgTimeMap.get((startStation, endStation))
+        return curr_avg_time
         
 
 
