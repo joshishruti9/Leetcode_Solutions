@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0496-next-greater-element-i) |
 | [0733-flood-fill](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0739-daily-temperatures) |
+| [0973-k-closest-points-to-origin](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 ## Stack
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0169-majority-element) |
+| [0973-k-closest-points-to-origin](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0973-k-closest-points-to-origin) |
 ## Sorting
 |  |
 | ------- |
@@ -177,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0242-valid-anagram) |
+| [0973-k-closest-points-to-origin](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0973-k-closest-points-to-origin) |
 ## Counting
 |  |
 | ------- |
@@ -192,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0202-happy-number](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0202-happy-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [0973-k-closest-points-to-origin](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1185-day-of-the-week](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1185-day-of-the-week) |
 ## Design
 |  |
@@ -340,4 +344,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0206-reverse-linked-list) |
+## Geometry
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0973-k-closest-points-to-origin) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0973-k-closest-points-to-origin) |
+## Quickselect
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
