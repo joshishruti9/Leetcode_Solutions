@@ -9,36 +9,27 @@ class Solution:
         if not head:
             return None
 
-        fake_head = ListNode()
-        prev_node = fake_head
+        fake_head_small = ListNode()
+        fake_head_big = ListNode()
+
+        fake_small = fake_head_small
+        fake_big = fake_head_big
 
         node = head
 
-        while node and node.val < x:
-            
-            prev_node.next = node
-            prev_node = node
-
-            node = node.next  
-
-        prev_big_node = prev_node
-        big_node = node
-
-        if node is None:
-            return head
-
         while node:
             if node.val < x:
-                temp_node = node.next
-                prev_big_node.next = node
-                node.next = big_node
-                prev_big_node = node
-                prev_node.next = temp_node
-                node = temp_node
-                
-            else:   
-                prev_node.next = node
-                prev_node = prev_node.next
-                node = node.next   
+                fake_head_small.next = node
+                fake_head_small = fake_head_small.next
+            else:
+                fake_head_big.next = node
+                fake_head_big = fake_head_big.next
 
-        return fake_head.next  
+            node = node.next
+        
+        fake_head_big.next = None
+        fake_head_small.next = fake_big.next
+
+        return fake_small.next
+
+        
