@@ -27,11 +27,9 @@ class WordDictionary:
         if letter == ".":
             for char in curr_node:
 
-                if char is "end":
-                    continue
-                
-                if self.traverse(word, index + 1, curr_node[char]):
-                    return True
+                if char is not "end":
+                    if self.traverse(word, index + 1, curr_node[char]):
+                        return True
             return False
 
         elif letter not in curr_node:
