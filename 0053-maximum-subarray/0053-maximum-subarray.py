@@ -8,9 +8,7 @@ class Solution:
 
             total += num
             max_total = max(total, max_total)
+
             if total < 0:
                 total = 0
-
         return max_total
-            
-        
