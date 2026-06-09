@@ -1,13 +1,14 @@
 class Solution:
     def reverseBits(self, n: int) -> int:
+        res = 0
+        bit_count = 0
 
-        binary_num = bin(n)
-        remain_bit = 32 - len(binary_num) + 2
-        reversed_binary_num = list(binary_num[2:][::-1])
-        
-        for i in range(remain_bit):
-            reversed_binary_num.append('0')
+        while n:
+            last_bit = n & 1
+            res = (res << 1) + last_bit
+            n = n >> 1
+            bit_count += 1
 
-        num = int("".join(reversed_binary_num), 2)
-        return num
-        
+        res = res << (32-bit_count)
+
+        return res
