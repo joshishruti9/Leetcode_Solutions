@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0290-word-pattern) |
 | [0380-insert-delete-getrandom-o1](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0383-ransom-note) |
+| [0433-minimum-genetic-mutation](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0433-minimum-genetic-mutation) |
 | [0496-next-greater-element-i](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0496-next-greater-element-i) |
 | [0981-time-based-key-value-store](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0981-time-based-key-value-store) |
 | [1396-design-underground-system](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1396-design-underground-system) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0226-invert-binary-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0417-pacific-atlantic-water-flow) |
+| [0433-minimum-genetic-mutation](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0433-minimum-genetic-mutation) |
 | [0463-island-perimeter](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0463-island-perimeter) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -265,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0392-is-subsequence) |
+| [0433-minimum-genetic-mutation](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0433-minimum-genetic-mutation) |
 | [0680-valid-palindrome-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0680-valid-palindrome-ii) |
 | [0981-time-based-key-value-store](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0981-time-based-key-value-store) |
 | [1396-design-underground-system](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1396-design-underground-system) |
