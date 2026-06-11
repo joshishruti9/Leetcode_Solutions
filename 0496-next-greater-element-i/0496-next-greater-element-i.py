@@ -2,22 +2,19 @@ class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
 
         res = []
+        num_dict = {}
         stack = []
-        hmap = {}
 
         for i in range(len(nums2)):
             while stack and nums2[stack[-1]] < nums2[i]:
-                item = stack.pop()
-                hmap[nums2[item]] = nums2[i] 
-            else:
-                stack.append(i)
-
+                index = stack.pop()
+                num_dict[nums2[index]] = nums2[i]
+            
+            stack.append(i)
         
-        for num in nums1:
-            if num in hmap:
-                res.append(hmap[num])
-            else:
-                res.append(-1)
 
+        for num in nums1:
+            res.append(num_dict.get(num, -1))
+        
         return res
         
