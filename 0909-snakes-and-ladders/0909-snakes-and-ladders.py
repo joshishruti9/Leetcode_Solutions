@@ -1,65 +1,69 @@
+from collections import deque
+
 class Solution:
-    def get_row_col(self, pos, n):
-        row =  (pos-1) // n
-
-        col = self.get_col(pos, row, n)
-
-        return (n - row - 1, col)
-    
-    def get_col(self, pos, row, n):
-
-        if row % 2 == 0:
-            if pos % n == 0:
-                col = n - 1
-            else:
-                col = (pos % n) - 1
-        else:
+    def find_col(self, pos, n, row_num):
+        if row_num % 2 != 0:
             if pos % n == 0:
                 col = 0
             else:
                 col = n - (pos % n)
+        else:
+            if pos % n == 0:
+                col = n-1
+            else:
+                col = (pos % n) - 1        
+
         return col
+
+
+    def find_row(self, pos, n):
+        if pos % n == 0:
+            return ((pos-1) // n)
+        else:
+            return (pos // n)
 
     def traverse(self, board, queue, visited, n):
 
+        step_count = 0
+
         while queue:
-            curr_pos, step_count = queue.popleft()
+            queue2 = []
             
-            if curr_pos == (n * n):
-                return step_count
+            for curr_pos in queue:
 
-            for dice in range(1, 7):
-                next_pos = curr_pos + dice
+                for i in range(1,7):
+                    next_pos = curr_pos + i
 
-                if next_pos > (n * n):
-                    break
+                    if next_pos > (n * n):
+                        break
+                    
+                    row = self.find_row(next_pos, n)
+                    col = self.find_col(next_pos, n , row)
 
-                
-                #get row col for dice_val
-                row, col = self.get_row_col(next_pos, n)
+                    dest = next_pos
 
-                if board[row][col] != -1:
-                    if board[row][col] not in visited:
-                        dest = board[row][col]
-                        queue.append((dest, step_count+1))
+                    if board[n-1-row][col] != -1:
+                        dest = board[n-1-row][col]
+
+                    if dest == (n * n):
+                        return step_count + 1
+
+                    if dest not in visited:
                         visited.add(dest)
-                else:
-                    if next_pos not in visited:
-                        queue.append((next_pos, step_count+1))
-                        visited.add(next_pos)
-
-        return -1               
+                        queue2.append(dest)
+            
+            step_count += 1
+            queue = queue2
+          
+            
+        return -1
 
     def snakesAndLadders(self, board: List[List[int]]) -> int:
-        
+
         queue = deque()
         visited = set()
-        n = len(board)
-
+        queue.append(1)
         visited.add(1)
-        queue.append((1,0))
-       
-        return self.traverse(board, queue, visited, n)
 
-
+        return self.traverse(board, queue, visited, len(board))
         
