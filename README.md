@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0733-flood-fill](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0733-flood-fill) |
+| [0886-possible-bipartition](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0886-possible-bipartition) |
 | [0934-shortest-bridge](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0934-shortest-bridge) |
 ## Breadth-First Search
 |  |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0733-flood-fill](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0733-flood-fill) |
+| [0886-possible-bipartition](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0886-possible-bipartition) |
 | [0909-snakes-and-ladders](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0909-snakes-and-ladders) |
 | [0934-shortest-bridge](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0934-shortest-bridge) |
 | [0994-rotting-oranges](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0994-rotting-oranges) |
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0200-number-of-islands) |
+| [0886-possible-bipartition](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0886-possible-bipartition) |
 ## Matrix
 |  |
 | ------- |
@@ -402,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0210-course-schedule-ii) |
+| [0886-possible-bipartition](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0886-possible-bipartition) |
 ## Topological Sort
 |  |
 | ------- |
