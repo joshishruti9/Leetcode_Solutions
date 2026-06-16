@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1413-minimum-value-to-get-positive-step-by-step-sum](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1413-minimum-value-to-get-positive-step-by-step-sum) |
 | [2104-sum-of-subarray-ranges](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/2104-sum-of-subarray-ranges) |
 ## Stack
 |  |
@@ -315,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
+| [1413-minimum-value-to-get-positive-step-by-step-sum](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1413-minimum-value-to-get-positive-step-by-step-sum) |
 ## Sliding Window
 |  |
 | ------- |
