@@ -7,27 +7,34 @@ class Solution:
         stack.append([log_list[0], log_list[1], log_list[2]])
         
         for i in range(1, len(logs)):
-            log_list = logs[i].split(":")
+            curr_log = logs[i].split(":")
+            curr_id, curr_state, curr_time = curr_log
+            curr_time = int(curr_time)
+            curr_id = int(curr_id)
                   
-            if log_list[1] == "start":
-                  stack.append(log_list)
+            if curr_state == "start":
+                  stack.append(curr_log)
+                  continue
+
+            if stack[-1][1] == "diff":
+                diff_id, diff_state, curr_diff_time = stack.pop()
+                start_id, start_state, start_time = stack.pop()
+                start_time = int(start_time)
+                time_diff = curr_time - start_time + 1
+
+                updated_diff_time = time_diff - curr_diff_time
+                output[curr_id] += updated_diff_time
             else:
+                start_id, start_state, start_time = stack.pop()
+                start_time = int(start_time)
+                time_diff = curr_time - start_time + 1
+                output[curr_id] += time_diff
+            
+            if stack:
                 if stack[-1][1] == "diff":
-                    diff_log = stack.pop()
-                    past_log_list = stack.pop()
-                    time_diff = int(log_list[2]) - int(past_log_list[2]) + 1
-                    updated_time = time_diff - diff_log[2]
-                    output[int(log_list[0])] += updated_time
+                    stack[-1][2] += time_diff
                 else:
-                    past_log_list = stack.pop()
-                    time_diff = int(log_list[2]) - int(past_log_list[2]) + 1
-                    output[int(log_list[0])] += time_diff
-                
-                if stack:
-                    if stack[-1][1] == "diff":
-                        stack[-1][2] += time_diff
-                    else:
-                        stack.append([past_log_list[0], "diff", time_diff])
+                    stack.append([curr_id, "diff", time_diff])
             
         return output
 
