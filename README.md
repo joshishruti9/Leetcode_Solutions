@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0057-insert-interval) |
+| [0064-minimum-path-sum](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0048-rotate-image) |
+| [0064-minimum-path-sum](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0200-number-of-islands) |
@@ -203,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0055-jump-game) |
+| [0064-minimum-path-sum](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0070-climbing-stairs) |
 | [0120-triangle](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
