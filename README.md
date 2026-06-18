@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
+| [0300-longest-increasing-subsequence](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0322-coin-change) |
 | [0380-insert-delete-getrandom-o1](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0417-pacific-atlantic-water-flow](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0417-pacific-atlantic-water-flow) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0198-house-robber) |
+| [0300-longest-increasing-subsequence](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0392-is-subsequence) |
 | [0918-maximum-sum-circular-subarray](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0918-maximum-sum-circular-subarray) |
@@ -312,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0222-count-complete-tree-nodes) |
+| [0300-longest-increasing-subsequence](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0981-time-based-key-value-store](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0981-time-based-key-value-store) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 ## Prefix Sum
