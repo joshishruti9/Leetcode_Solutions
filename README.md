@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0886-possible-bipartition](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0886-possible-bipartition) |
 | [0934-shortest-bridge](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0934-shortest-bridge) |
 | [0938-range-sum-of-bst](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0938-range-sum-of-bst) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0909-snakes-and-ladders](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0909-snakes-and-ladders) |
 | [0934-shortest-bridge](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0934-shortest-bridge) |
 | [0994-rotting-oranges](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0994-rotting-oranges) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Union-Find
 |  |
 | ------- |
@@ -169,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0200-number-of-islands) |
 | [0886-possible-bipartition](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0886-possible-bipartition) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Matrix
 |  |
 | ------- |
@@ -426,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0210-course-schedule-ii) |
 | [0886-possible-bipartition](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0886-possible-bipartition) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Topological Sort
 |  |
 | ------- |
