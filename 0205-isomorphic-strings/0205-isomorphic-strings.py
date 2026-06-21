@@ -1,18 +1,20 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        hmap = dict()
-        visited =set()
 
-        for s_char, t_char in zip(s,t):
-            if s_char not in hmap:
-                if t_char not in visited:
-                    hmap[s_char] = t_char
-                    visited.add(t_char)
+        character_map = {}
+
+        occured_characters = set()
+
+        for s_char, t_char in zip(s, t):
+            if s_char in character_map:
+                if t_char != character_map[s_char]:
+                    return False
                 else:
-                    return False
-            else:
-                if hmap[s_char] != t_char:
-                    return False
-        
-        return True
-        
+                    continue
+            if t_char in occured_characters:
+                return False
+
+            character_map[s_char] = t_char 
+            occured_characters.add(t_char)
+
+        return True       
