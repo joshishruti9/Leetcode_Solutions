@@ -8,10 +8,6 @@ class Solution:
             self.memo[(curr_s1, curr_s2, curr_s3)] = True
             return True
         
-        if (curr_s1 < len(s1) and s1[curr_s1] != s3[curr_s3]) and (curr_s2 < len(s2) and s2[curr_s2] != s3[curr_s3]):
-            self.memo[(curr_s1, curr_s2, curr_s3)] = False
-            return False
-
         if curr_s1 < len(s1) and s1[curr_s1] == s3[curr_s3]:
             if self.backtrack(curr_s1+1, curr_s2, curr_s3+1, s1, s2, s3):
                 self.memo[(curr_s1, curr_s2, curr_s3)] = True
