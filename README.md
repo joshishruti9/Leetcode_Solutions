@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0636-exclusive-time-of-functions](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0636-exclusive-time-of-functions) |
 | [0733-flood-fill](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0739-daily-temperatures) |
+| [0846-hand-of-straights](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0846-hand-of-straights) |
 | [0909-snakes-and-ladders](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0909-snakes-and-ladders) |
 | [0911-online-election](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0911-online-election) |
 | [0918-maximum-sum-circular-subarray](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0918-maximum-sum-circular-subarray) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0383-ransom-note) |
 | [0433-minimum-genetic-mutation](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0433-minimum-genetic-mutation) |
 | [0496-next-greater-element-i](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0496-next-greater-element-i) |
+| [0846-hand-of-straights](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0846-hand-of-straights) |
 | [0911-online-election](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0911-online-election) |
 | [0981-time-based-key-value-store](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0981-time-based-key-value-store) |
 | [1396-design-underground-system](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1396-design-underground-system) |
@@ -271,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0242-valid-anagram) |
+| [0846-hand-of-straights](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0846-hand-of-straights) |
 | [0973-k-closest-points-to-origin](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0973-k-closest-points-to-origin) |
 ## Counting
 |  |
@@ -317,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0135-candy) |
 | [0680-valid-palindrome-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0680-valid-palindrome-ii) |
+| [0846-hand-of-straights](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0846-hand-of-straights) |
 ## String
 |  |
 | ------- |
