@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0086-partition-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0086-partition-list) |
 | [0088-merge-sorted-array](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0125-valid-palindrome) |
+| [0148-sort-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0148-sort-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0392-is-subsequence) |
@@ -252,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0053-maximum-subarray) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0148-sort-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0169-majority-element) |
 | [0190-reverse-bits](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0191-number-of-1-bits) |
@@ -265,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0088-merge-sorted-array) |
+| [0148-sort-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0242-valid-anagram) |
 | [0973-k-closest-points-to-origin](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0973-k-closest-points-to-origin) |
@@ -441,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0138-copy-list-with-random-pointer](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0138-copy-list-with-random-pointer) |
+| [0148-sort-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0206-reverse-linked-list) |
 | [1472-design-browser-history](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1472-design-browser-history) |
 ## Binary Search Tree
@@ -524,4 +528,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1472-design-browser-history](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1472-design-browser-history) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
