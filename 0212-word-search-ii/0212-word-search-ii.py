@@ -2,7 +2,7 @@ class Solution:
     def __init__(self):
         self.trie = {}
 
-    def traverse(self, board, i, j, m, n, visited, node, res):
+    def traverse(self, board, i, j, m, n, visited, node):
 
         letter = board[i][j]
         
@@ -12,8 +12,7 @@ class Solution:
         node = node[letter]
 
         if "end" in node:
-            res.append(node["end"])
-            del node["end"]
+            self.res.add(node["end"])
 
         dirs = [(1,0), (0,1), (0,-1), (-1,0)]
         direction = 0
@@ -22,7 +21,7 @@ class Solution:
         for di, dj in dirs:
             if 0 <= i+di < m and 0 <= j+dj < n and (i+di, j+dj) not in visited:
                 if board[i+di][j+dj] in node:
-                    self.traverse(board, i+di, j+dj, m, n, visited, node, res)
+                    self.traverse(board, i+di, j+dj, m, n, visited, node)
         
         visited.remove((i, j))
     
@@ -38,7 +37,7 @@ class Solution:
         
     def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
 
-        res = []
+        self.res = set()
 
         self.create_trie(words)
 
@@ -47,7 +46,7 @@ class Solution:
     
         for i in range(m):
             for j in range(n):
-                self.traverse(board, i, j, m, n, set(), self.trie, res)
+                self.traverse(board, i, j, m, n, set(), self.trie)
                    
                             
-        return res
+        return list(self.res)
