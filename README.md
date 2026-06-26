@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0173-binary-search-tree-iterator) |
+| [0224-basic-calculator](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0224-basic-calculator) |
 | [0496-next-greater-element-i](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0496-next-greater-element-i) |
 | [0636-exclusive-time-of-functions](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0636-exclusive-time-of-functions) |
 | [0739-daily-temperatures](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0739-daily-temperatures) |
@@ -292,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0202-happy-number](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0202-happy-number) |
+| [0224-basic-calculator](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0224-basic-calculator) |
 | [0380-insert-delete-getrandom-o1](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0973-k-closest-points-to-origin](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1185-day-of-the-week](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1185-day-of-the-week) |
@@ -342,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0224-basic-calculator](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0383-ransom-note) |
@@ -487,6 +490,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0206-reverse-linked-list) |
+| [0224-basic-calculator](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0224-basic-calculator) |
 ## Geometry
 |  |
 | ------- |
