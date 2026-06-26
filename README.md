@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0209-minimum-size-subarray-sum) |
+| [0212-word-search-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0212-word-search-ii) |
 | [0219-contains-duplicate-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0212-word-search-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0427-construct-quad-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0427-construct-quad-tree) |
 | [0463-island-perimeter](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0463-island-perimeter) |
@@ -344,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0212-word-search-ii) |
 | [0224-basic-calculator](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0290-word-pattern) |
@@ -512,12 +515,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0077-combinations) |
+| [0212-word-search-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0212-word-search-ii) |
 ## Trie
 |  |
 | ------- |
 | [0139-word-break](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0212-word-search-ii) |
 ## Queue
 |  |
 | ------- |
