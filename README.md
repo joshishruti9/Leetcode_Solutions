@@ -306,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0224-basic-calculator) |
 | [0380-insert-delete-getrandom-o1](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0973-k-closest-points-to-origin](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0973-k-closest-points-to-origin) |
+| [1154-day-of-the-year](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1154-day-of-the-year) |
 | [1185-day-of-the-week](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1185-day-of-the-week) |
 ## Design
 |  |
@@ -365,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0583-delete-operation-for-two-strings](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0583-delete-operation-for-two-strings) |
 | [0680-valid-palindrome-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0680-valid-palindrome-ii) |
 | [0981-time-based-key-value-store](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0981-time-based-key-value-store) |
+| [1154-day-of-the-year](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1154-day-of-the-year) |
 | [1396-design-underground-system](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1396-design-underground-system) |
 | [1768-merge-strings-alternately](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1768-merge-strings-alternately) |
 ## Binary Search
