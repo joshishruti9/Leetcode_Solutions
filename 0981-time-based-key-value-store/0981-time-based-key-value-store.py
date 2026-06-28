@@ -4,7 +4,7 @@ class TimeMap:
         while low < high:
             mid = (low + high) // 2
 
-            if timestamp < values[mid][0]:
+            if timestamp <= values[mid][0]:
                 high = mid
             else:
                 low = mid + 1
@@ -28,7 +28,18 @@ class TimeMap:
 
         index = self.bisect_left(timestamp, values, 0, len(values))
 
-        return values[index-1][1] if index > 0 else ""
+        if index == len(values):
+            return values[index-1][1]
+
+        if values[index][0] == timestamp:
+            return values[index][1]
+        
+        if index == 0:
+            return ""
+       
+        return values[index-1][1]
+
+       
 
 
 # Your TimeMap object will be instantiated and called as such:
