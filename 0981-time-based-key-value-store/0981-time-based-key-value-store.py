@@ -1,10 +1,10 @@
 class TimeMap:
-    def bisect_left(self, timestamp, values, low, high):
+    def bisect_right(self, timestamp, values, low, high):
 
         while low < high:
             mid = (low + high) // 2
 
-            if timestamp <= values[mid][0]:
+            if timestamp < values[mid][0]:
                 high = mid
             else:
                 low = mid + 1
@@ -26,18 +26,17 @@ class TimeMap:
 
         values = self.timestamp_val[key]
 
-        index = self.bisect_left(timestamp, values, 0, len(values))
+        index = self.bisect_right(timestamp, values, 0, len(values))
 
-        if index == len(values):
+        # 1,2,3,4,15,16,17,18
+
+        #if index < len(values) and values[index][0] == timestamp:
+            #return values[index][1]
+        
+        if index > 0:
             return values[index-1][1]
 
-        if values[index][0] == timestamp:
-            return values[index][1]
-        
-        if index == 0:
-            return ""
-       
-        return values[index-1][1]
+        return ""
 
        
 
