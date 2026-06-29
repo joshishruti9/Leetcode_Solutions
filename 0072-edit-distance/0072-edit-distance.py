@@ -4,26 +4,23 @@ class Solution:
         m = len(word1)
         n = len(word2)
 
-
-        memo = [[0 for i in range(n+1)] for j in range(m+1)]
-    
-        memo[m][n] = 0
+        mat = [[0 for i in range(n+1)] for j in range(m+1)]
 
         count = 1
         for i in range(m-1, -1, -1):
-            memo[i][n] = count
+            mat[i][n] = count
+            count += 1
+        count = 1
+
+        for j in range(n-1, -1, -1):
+            mat[m][j] = count
             count += 1
         
-        count = 1
-        for i in range(n-1, -1, -1):
-            memo[m][i] = count
-            count += 1
-
         for i in range(m-1, -1, -1):
             for j in range(n-1, -1, -1):
                 if word1[i] == word2[j]:
-                    memo[i][j] = memo[i+1][j+1]
+                    mat[i][j] = mat[i+1][j+1]
                 else:
-                    memo[i][j] = min(memo[i+1][j], memo[i][j+1], memo[i+1][j+1]) + 1
+                    mat[i][j] = 1 + min(mat[i+1][j], mat[i][j+1], mat[i+1][j+1])
         
-        return memo[0][0]
+        return mat[0][0]
