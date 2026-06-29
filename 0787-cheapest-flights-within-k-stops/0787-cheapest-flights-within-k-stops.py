@@ -33,7 +33,8 @@ class Solution:
             curr_cost, curr_k, curr_dest = heappop(heap)
 
             if curr_k <= k and curr_dest == dst:
-                return curr_cost
+                min_price = min(min_price, curr_cost)
+                continue
             
             if curr_k > k or (curr_k == k and curr_dest != dst):
                 continue
@@ -49,4 +50,4 @@ class Solution:
                     visited[(dest, curr_k+1)] = (curr_cost+cost)
                     heappush(heap, ((curr_cost + cost), curr_k+1, dest))
         
-        return -1
+        return min_price if min_price != float("inf") else -1
