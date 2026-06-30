@@ -16,7 +16,23 @@ class LRUCache:
 
         self.cap = capacity
         self.key_val = {}
-        
+    
+    def add_latestnode(self, node):
+        prev_node = node.prev
+        next_node = node.next
+
+        node.prev = None
+        node.next = None
+
+        prev_node.next = next_node
+        next_node.prev = prev_node
+
+        old_mrunode = self.mrunode.next
+        node.next = old_mrunode
+        old_mrunode.prev = node
+
+        node.prev = self.mrunode
+        self.mrunode.next = node
 
     def get(self, key: int) -> int:
 
@@ -28,18 +44,7 @@ class LRUCache:
         if node.prev == self.mrunode:
             return node.val
 
-        prev_node = node.prev
-        next_node = node.next
-
-        prev_node.next = next_node
-        next_node.prev = prev_node
-
-        old_mrunode = self.mrunode.next
-        node.next = old_mrunode
-        old_mrunode.prev = node
-
-        node.prev = self.mrunode
-        self.mrunode.next = node
+        self.add_latestnode(node)
 
         return node.val
         
@@ -80,21 +85,7 @@ class LRUCache:
             node = self.key_val[key]
             node.val = value
 
-            prev_node = node.prev
-            next_node = node.next
-
-            node.prev = None
-            node.next = None
-
-            prev_node.next = next_node
-            next_node.prev = prev_node
-
-            old_mrunode = self.mrunode.next
-            node.next = old_mrunode
-            old_mrunode.prev = node
-
-            node.prev = self.mrunode
-            self.mrunode.next = node
+            self.add_latestnode(node)
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
