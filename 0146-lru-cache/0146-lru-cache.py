@@ -1,92 +1,100 @@
-from collections import deque
 class Node:
-    def __init__(self, key = 0, val = 0, prev_node = None, next_node = None):
+    def __init__(self, key=0, value=0, prev_node=None, next_node=None):
         self.key = key
-        self.val = val
-        self.prev = prev_node
+        self.val = value
+        self.prev= prev_node
         self.next = next_node
 
 class LRUCache:
 
     def __init__(self, capacity: int):
+        self.lrunode = Node()
+        self.mrunode = Node()
 
-        self.dict = {}
+        self.mrunode.next = self.lrunode
+        self.lrunode.prev = self.mrunode
+
         self.cap = capacity
-        self.lrupseudo = Node()
-        self.mrupseudo = Node()
+        self.key_val = {}
+        
 
     def get(self, key: int) -> int:
-        if key not in self.dict:
+
+        if key not in self.key_val:
             return -1
         
-        node = self.dict[key]
+        node = self.key_val[key]
+
+        if node.prev == self.mrunode:
+            return node.val
 
         prev_node = node.prev
         next_node = node.next
 
-        prev_node.next = node.next
-        next_node.prev = node.prev
+        prev_node.next = next_node
+        next_node.prev = prev_node
 
-        mru_node = self.mrupseudo.prev
+        old_mrunode = self.mrunode.next
+        node.next = old_mrunode
+        old_mrunode.prev = node
 
-        node.prev = mru_node
-        self.mrupseudo.prev = node
-        node.next = self.mrupseudo
-        mru_node.next = node
-        print(self)
-        return node.val        
+        node.prev = self.mrunode
+        self.mrunode.next = node
 
+        return node.val
+        
     def put(self, key: int, value: int) -> None:
-        if key not in self.dict:
-            if len(self.dict) == 0:
-                new_node = Node(key, value)
-                self.lrupseudo.next = new_node
-                self.mrupseudo.prev =  new_node
-                new_node.prev = self.lrupseudo
-                new_node.next = self.mrupseudo
-                self.dict[key] = new_node
+        if key not in self.key_val:
+            #first node
+            if len(self.key_val) == 0:
+                node = Node(key, value)
 
-            elif len(self.dict) < self.cap:
-                new_node = Node(key, value)
-                mru_node = self.mrupseudo.prev
-                new_node.prev = mru_node
-                mru_node.next = new_node
-                new_node.next = self.mrupseudo
-                self.mrupseudo.prev = new_node
-                self.dict[key] = new_node
+                self.mrunode.next = node
+                self.lrunode.prev = node
+                
+                node.next = self.lrunode
+                node.prev = self.mrunode
+
+                self.key_val[key] = node
 
             else:
-                lru_node = self.lrupseudo.next
+                if  len(self.key_val) == self.cap:
+                    lru = self.lrunode.prev
+
+                    prevnode = lru.prev
+                    prevnode.next = self.lrunode
+                    self.lrunode.prev = prevnode
+                    
+                    self.key_val.pop(lru.key)
+
+                newnode = Node(key, value)
+                node = self.mrunode.next
                 
-                self.dict.pop(lru_node.key)
-                self.lrupseudo.next = lru_node.next
-                lru_node.next.prev =  self.lrupseudo
+                node.prev = newnode
+                newnode.next = node
+                self.mrunode.next = newnode
+                newnode.prev = self.mrunode
+                self.key_val[key] = newnode
 
-                new_node = Node(key, value)
-                mru_node = self.mrupseudo.prev
-
-                new_node.prev = mru_node
-                mru_node.next = new_node
-                self.mrupseudo.prev = new_node
-                new_node.next = self.mrupseudo                
-                self.dict[key] = new_node        
         else:
-            node = self.dict[key]
+            node = self.key_val[key]
+            node.val = value
 
             prev_node = node.prev
             next_node = node.next
 
-            prev_node.next = node.next
-            next_node.prev = node.prev
+            node.prev = None
+            node.next = None
 
-            new_node = Node(key, value)
+            prev_node.next = next_node
+            next_node.prev = prev_node
 
-            mru_node = self.mrupseudo.prev
-            new_node.prev = mru_node
-            mru_node.next = new_node
-            new_node.next = self.mrupseudo
-            self.mrupseudo.prev = new_node
-            self.dict[key] = new_node
+            old_mrunode = self.mrunode.next
+            node.next = old_mrunode
+            old_mrunode.prev = node
+
+            node.prev = self.mrunode
+            self.mrunode.next = node
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
