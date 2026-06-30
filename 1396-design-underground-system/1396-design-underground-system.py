@@ -1,37 +1,33 @@
 class UndergroundSystem:
-    #We can use dictionary to store intime for a particular id
-    #when we call checkout we will pop out that value and we will calculate average of start and end and store in another dictonary
-    #when we are calling getAverageTime we will get the vvalue from dictionary2 and return it.
 
     def __init__(self):
-
-        self.travelMap = {}
-        self.avgTimeMap = {}
+        self.stationMap = {}
+        self.timeMap = {}
         
 
     def checkIn(self, id: int, stationName: str, t: int) -> None:
-        if id not in self.travelMap:
-            self.travelMap[id] = (stationName, t)
-        
+
+        if id not in self.stationMap:
+            self.stationMap[id] = (stationName, t)
 
     def checkOut(self, id: int, stationName: str, t: int) -> None:
-        if id in self.travelMap:
-            start_station_name, start_time = self.travelMap.pop(id)
-            time_difference = t - start_time
 
-            if (start_station_name, stationName) in self.avgTimeMap:
-                curr_total_time, count = self.avgTimeMap.pop((start_station_name, stationName))
-                curr_total_time += time_difference
-                count += 1
-                self.avgTimeMap[((start_station_name, stationName))] = (curr_total_time, count)
+        if id in self.stationMap:
+            start_station, start_time = self.stationMap.pop(id)
+
+            time_diff = t - start_time
+
+            if (start_station, stationName) in self.timeMap:
+                curr_time_diff, curr_count = self.timeMap.pop((start_station, stationName))
+                self.timeMap[(start_station, stationName)] = (curr_time_diff + time_diff, curr_count + 1)
             else:
-                self.avgTimeMap[((start_station_name, stationName))] = (time_difference, 1)
-
-
+                self.timeMap[(start_station, stationName)] = (time_diff, 1)
+        
 
     def getAverageTime(self, startStation: str, endStation: str) -> float:
-        curr_total_time, count = self.avgTimeMap.get((startStation, endStation))
-        return curr_total_time / count
+
+        time, count = self.timeMap[(startStation, endStation)]
+        return time / count
         
 
 
