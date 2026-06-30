@@ -11,9 +11,6 @@ class LRUCache:
         self.lrunode = Node()
         self.mrunode = Node()
 
-        self.mrunode.next = self.lrunode
-        self.lrunode.prev = self.mrunode
-
         self.cap = capacity
         self.key_val = {}
     
