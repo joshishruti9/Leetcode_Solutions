@@ -313,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0048-rotate-image) |
+| [0067-add-binary](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0070-climbing-stairs) |
 | [0149-max-points-on-a-line](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -363,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0058-length-of-last-word) |
+| [0067-add-binary](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0067-add-binary) |
 | [0071-simplify-path](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0076-minimum-window-substring) |
@@ -468,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0067-add-binary) |
 | [0190-reverse-bits](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0191-number-of-1-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0222-count-complete-tree-nodes) |
@@ -591,4 +594,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0787-cheapest-flights-within-k-stops) |
+## Simulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
