@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0636-exclusive-time-of-functions](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0636-exclusive-time-of-functions) |
 | [0733-flood-fill](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0739-daily-temperatures) |
+| [0832-flipping-an-image](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0832-flipping-an-image) |
 | [0846-hand-of-straights](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0846-hand-of-straights) |
 | [0909-snakes-and-ladders](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0909-snakes-and-ladders) |
 | [0911-online-election](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0911-online-election) |
@@ -223,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0427-construct-quad-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0427-construct-quad-tree) |
 | [0463-island-perimeter](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0463-island-perimeter) |
 | [0733-flood-fill](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0733-flood-fill) |
+| [0832-flipping-an-image](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0832-flipping-an-image) |
 | [0909-snakes-and-ladders](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0909-snakes-and-ladders) |
 | [0934-shortest-bridge](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0934-shortest-bridge) |
 | [0994-rotting-oranges](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0994-rotting-oranges) |
@@ -248,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0392-is-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0680-valid-palindrome-ii) |
+| [0832-flipping-an-image](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0832-flipping-an-image) |
 | [1768-merge-strings-alternately](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1768-merge-strings-alternately) |
 ## Dynamic Programming
 |  |
@@ -478,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0191-number-of-1-bits](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0191-number-of-1-bits) |
 | [0201-bitwise-and-of-numbers-range](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0201-bitwise-and-of-numbers-range) |
 | [0222-count-complete-tree-nodes](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0222-count-complete-tree-nodes) |
+| [0832-flipping-an-image](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0832-flipping-an-image) |
 ## Linked List
 |  |
 | ------- |
@@ -602,6 +606,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0067-add-binary) |
+| [0832-flipping-an-image](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0832-flipping-an-image) |
 ## Database
 |  |
 | ------- |
