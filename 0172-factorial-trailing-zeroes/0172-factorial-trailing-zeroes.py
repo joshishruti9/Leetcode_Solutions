@@ -1,12 +1,11 @@
 class Solution:
     def trailingZeroes(self, n: int) -> int:
         count = 0 
+        mul = 5
 
-        count = n // 5
-        count += n // 25
-        count += n // 125
-        count += n // 625
-        count += n // 3125
+        while mul <= n:
+            count += n // mul
+            mul = mul * 5
 
         return count
         
