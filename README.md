@@ -251,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0392-is-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0680-valid-palindrome-ii) |
 | [0832-flipping-an-image](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0832-flipping-an-image) |
+| [0876-middle-of-the-linked-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0876-middle-of-the-linked-list) |
 | [1768-merge-strings-alternately](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1768-merge-strings-alternately) |
 ## Dynamic Programming
 |  |
@@ -501,6 +502,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0206-reverse-linked-list) |
+| [0876-middle-of-the-linked-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0876-middle-of-the-linked-list) |
 | [1472-design-browser-history](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1472-design-browser-history) |
 ## Binary Search Tree
 |  |
