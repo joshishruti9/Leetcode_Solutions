@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0064-minimum-path-sum) |
+| [0068-text-justification](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0068-text-justification) |
 | [0074-search-a-2d-matrix](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -371,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0058-length-of-last-word) |
 | [0067-add-binary](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0067-add-binary) |
+| [0068-text-justification](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0076-minimum-window-substring) |
@@ -608,6 +610,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0067-add-binary) |
+| [0068-text-justification](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0068-text-justification) |
 | [0832-flipping-an-image](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0832-flipping-an-image) |
 ## Database
 |  |
