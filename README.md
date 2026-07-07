@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1267-count-servers-that-communicate](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1267-count-servers-that-communicate) |
 | [1413-minimum-value-to-get-positive-step-by-step-sum](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1413-minimum-value-to-get-positive-step-by-step-sum) |
 | [1472-design-browser-history](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1472-design-browser-history) |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [2104-sum-of-subarray-ranges](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/2104-sum-of-subarray-ranges) |
 ## Stack
 |  |
