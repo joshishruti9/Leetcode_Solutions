@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1254-number-of-closed-islands](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1254-number-of-closed-islands) |
 | [1267-count-servers-that-communicate](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1267-count-servers-that-communicate) |
+| [1288-remove-covered-intervals](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1288-remove-covered-intervals) |
 | [1413-minimum-value-to-get-positive-step-by-step-sum](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1413-minimum-value-to-get-positive-step-by-step-sum) |
 | [1472-design-browser-history](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1472-design-browser-history) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0502-ipo](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0502-ipo) |
 | [0846-hand-of-straights](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0846-hand-of-straights) |
 | [0973-k-closest-points-to-origin](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0973-k-closest-points-to-origin) |
+| [1288-remove-covered-intervals](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1288-remove-covered-intervals) |
 ## Counting
 |  |
 | ------- |
