@@ -16,8 +16,7 @@ class Solution:
             else:
                 res.append([intervals[i][0], intervals[i][1]])
                 i += 1
-        
-        print(res)
+
         return len(res)
 
 
