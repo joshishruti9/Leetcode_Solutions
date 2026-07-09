@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1472-design-browser-history](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1472-design-browser-history) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [2104-sum-of-subarray-ranges](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/2104-sum-of-subarray-ranges) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Stack
 |  |
 | ------- |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0981-time-based-key-value-store](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0981-time-based-key-value-store) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1396-design-underground-system](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1396-design-underground-system) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -216,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1254-number-of-closed-islands](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1254-number-of-closed-islands) |
 | [1267-count-servers-that-communicate](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1267-count-servers-that-communicate) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Matrix
 |  |
 | ------- |
@@ -423,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0911-online-election](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0911-online-election) |
 | [0981-time-based-key-value-store](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0981-time-based-key-value-store) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -543,6 +547,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0886-possible-bipartition](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0886-possible-bipartition) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Topological Sort
 |  |
 | ------- |
