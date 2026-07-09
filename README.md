@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0212-word-search-ii) |
 | [0219-contains-duplicate-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0228-summary-ranges) |
+| [0229-majority-element-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
 | [0300-longest-increasing-subsequence](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0322-coin-change) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0219-contains-duplicate-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0219-contains-duplicate-ii) |
+| [0229-majority-element-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0290-word-pattern) |
 | [0380-insert-delete-getrandom-o1](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0380-insert-delete-getrandom-o1) |
@@ -304,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0242-valid-anagram) |
 | [0502-ipo](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0502-ipo) |
 | [0846-hand-of-straights](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0846-hand-of-straights) |
@@ -313,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0229-majority-element-ii) |
 | [0383-ransom-note](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0383-ransom-note) |
 | [1267-count-servers-that-communicate](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/1267-count-servers-that-communicate) |
 ## Math
