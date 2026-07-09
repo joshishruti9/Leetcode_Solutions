@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0733-flood-fill](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0886-possible-bipartition](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0886-possible-bipartition) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0733-flood-fill](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0886-possible-bipartition](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0886-possible-bipartition) |
@@ -543,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0210-course-schedule-ii) |
+| [0743-network-delay-time](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0886-possible-bipartition](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0886-possible-bipartition) |
@@ -570,6 +573,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0502-ipo](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0502-ipo) |
+| [0743-network-delay-time](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0973-k-closest-points-to-origin](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0973-k-closest-points-to-origin) |
 ## Quickselect
@@ -623,6 +627,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/joshishruti9/Leetcode_Solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Simulation
 |  |
