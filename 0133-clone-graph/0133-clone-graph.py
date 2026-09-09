@@ -7,37 +7,48 @@ class Node:
 """
 
 from typing import Optional
+
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
 
-        if not node:
+        if node is None:
             return None
+        
 
+        head = node
         queue = deque()
-        hmap = {}
-        root = node
-        queue.append(node)
         visited = set()
+        queue.append(node)
         visited.add(node)
-        new_node = Node(node.val)
-        hmap[node] = new_node 
-        
+        hmap = {}
+
         while queue:
-            popped_node = queue.popleft()
-            new_node = hmap[popped_node]
+            old_node = queue.popleft() 
+            neighbour_nodes = old_node.neighbors
 
-            neighbour_nodes = popped_node.neighbors
+            if old_node not in hmap:
+                new_node = Node(old_node.val)
+                hmap[old_node] = new_node
+            else:
+                new_node = hmap[old_node]
 
-            for neighbour_node in neighbour_nodes:
-                if neighbour_node not in visited:
-                    new_neighbour = Node(neighbour_node.val)
-                    new_node.neighbors.append(new_neighbour)
-                    hmap[neighbour_node] = new_neighbour
-                    queue.append(neighbour_node)
-                    visited.add(neighbour_node)
+            for neighbor in neighbour_nodes:
+                if neighbor not in visited:
+                    queue.append(neighbor)
+                    visited.add(neighbor)
+
+                if neighbor not in hmap:
+                    new_neighbour_node = Node(neighbor.val)
+                    hmap[neighbor] = new_neighbour_node
                 else:
-                    new_neighbour = hmap[neighbour_node]
-                    new_node.neighbors.append(new_neighbour)
+                    new_neighbour_node = hmap[neighbor]
+
+                new_node.neighbors.append(new_neighbour_node)
+            
+            
         
-        return hmap[node]
+        return hmap[head]
+
+
         
+
